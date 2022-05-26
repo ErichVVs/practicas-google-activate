@@ -173,8 +173,38 @@
                     <option value="unknow">Prefiero no responder</option>
                 </optgroup>
             </select><br>
-            <textarea name="comentarios">Cometarios</textarea>
+            <textarea name="comentarios">Cometarios</textarea><br>
+            <input type="submit" name="submit" id="submit">
         </form>
+
+<!--quinto formularios-->
+
+        <br>
+        <hr>
+
+        <fieldset><legend>Perfil</legend>
+            Nombre:<input type="text" name="nombre" id="nombre">
+            Apellidos: <input type="text" name="apellidos" id="apellidos">
+            Email: <input type="email" name="email" id="email">
+            Teléfono: <input type="number" name="telf" id="telf">
+            <input type="submit">
+        </fieldset>
+
+        <fieldset><legend>Dudas y sugerencias</legend>
+            Motivo: <select name="motivo" id="motivo">
+                        <optgroup label="Cotizaciones">
+                            <option value="cumpleaños">Cumpleaños</option>
+                            <option value="xvaños">XV años</option>
+                            <option value="bodas">Bodas</option>
+                        </optgroup>
+                        <optgroup label="Dudas y sugerencias">
+                            <option value="productos">Productos</option>
+                            <option value="experiencia">Experiencia de compra</option>
+                        </optgroup>
+                    </select><br> 
+            <input type="submit">
+        </fieldset>
+
 
     </body>
 </html>
